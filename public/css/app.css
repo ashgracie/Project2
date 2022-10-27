@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa%7CRighteous');
+
+body {
+  background: url(../images/back.png);
+  margin: 0;
+  font-family: 'Helena', cursive;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+h1 {
+  font-family: 'Ariel', cursive;
+  background: rgb(215, 250, 246);
+  margin:0;
+  margin-bottom: 1em;
+  padding: 2em;
+  text-align: center;
+}
+
+a {
+  color: rgb(38, 0, 255);
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2.5em;
+  background: rgba(193, 235, 187, .9);
+}
+
+a:hover {
+  color: ghostwhite;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: rgb(25, 25, 233);
+}
+
+input[type=text] {
+  padding: .3em;
+}
+img{
+  height: 200px;
+}
+input[type=submit] {
+  padding: .5em;
+  color: rgb(6, 33, 153);
+  background: rgb(77, 221, 246);
+  font-size: 2em;
+  border-radius: 10%;
+}
